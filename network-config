@@ -1,0 +1,8 @@
+#below ubuntu
+auto ens160
+iface ens160 inet static
+address *
+netmask *
+gateway *
+dns-nameservers *
+
