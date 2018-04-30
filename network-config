@@ -1,4 +1,5 @@
 #below ubuntu
+#/etc/network/interfaces
 auto ens160
 iface ens160 inet static
 address *
@@ -6,3 +7,13 @@ netmask *
 gateway *
 dns-nameservers *
 
+
+#centos
+#/etc/sysconfig/network-scripts
+
+BOOTPROTO=static
+IPADDR=
+NETMASK=
+GATAWAY=
+ONBOOT=yes
+DNS1=
