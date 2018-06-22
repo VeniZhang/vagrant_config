@@ -7,6 +7,10 @@ vim +PluginInstall +qall
 
 sudo apt install python-pip -y
 sudo apt install python3-pip -y
+sudo apt isntall ipython -y
+sudo apt install ipython3 -y 
+pip install virtualenv 
+pip install virtualenvwrapper
 
 sudo apt install tmux 
 sudo apt install tree
