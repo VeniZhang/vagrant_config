@@ -1,0 +1,11 @@
+[unit]
+Descriptiong=Shadowsocks Client
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/sslocal -c /etc/shadowsocks/config.json
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+#WantedBy=graphical.target
